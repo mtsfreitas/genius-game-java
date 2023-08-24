@@ -6,7 +6,7 @@ O sistema possui as seguintes funcionalidades: botão para iniciar/resetar o jog
 
 ![7wra9m](https://github.com/mtsfreitas/genius-game-java/assets/21324690/83749909-901e-4c68-8752-91cc96830c5e)
 
-[gif do game desenvolvido]
+[animação do game desenvolvido]
 
 # Arquitetura
 Para este respectivo projeto foi seguido o padrão de software (MVC) Model-View-Controller, que isola as regras de negócios da lógica de apresentação, a interface com o usuário. Possibilitando a divisão do projeto em camadas muito bem definidas para suas classes.
