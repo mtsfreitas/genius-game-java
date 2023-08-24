@@ -5,6 +5,7 @@ O objetivo deste projeto é o desenvolvimento de um jogo de memória que foi mui
 O sistema possui as seguintes funcionalidades: botão para iniciar/resetar o jogo, exibir a sequência de cores, informar acerto ou erro da sequência, sendo que o jogador deve escolher uma cor dentro de 5 segundos a cada escolha.
 
 ![7wra9m](https://github.com/mtsfreitas/genius-game-java/assets/21324690/83749909-901e-4c68-8752-91cc96830c5e)
+Imagem do game desenvolvido
 
 # Arquitetura
 Para este respectivo projeto foi seguido o padrão de software (MVC) Model-View-Controller, que isola as regras de negócios da lógica de apresentação, a interface com o usuário. Possibilitando a divisão do projeto em camadas muito bem definidas para suas classes.
@@ -18,5 +19,4 @@ Não se dedica em saber como o conhecimento foi retirado ou de onde ela foi obti
 # Decisões de Implementação
 Foram utilizados estruturas de vetores que contém o armazenamento do ArrayList de sequência de cores gerada de forma aleatória e o Vetor em que é armazenado as escolhas do jogador. Foi necessário a implementação de 2 Threads para cuidar do tempo de espera limite de 5 segundos e o tempo de transição de cada sequência de cor gerada. O tratamento de erros e exceções foi feito por 4 condições de if-else, tendo em vista um funcionamento robusto que permite executar até quando o usuário desejar.
 
-
-o desenvolvimento do software na linguagem Java, utilizando a orientação objetos, pode-se obter o aperfeiçoamento da mesma, possui seus pacotes devidamente organizados, inclui também o tratamento de possíveis erros que um determinado usuário possa eventualmente cometer através de estruturas de comparação
+o desenvolvimento do software na linguagem Java, utilizando a orientação objetos, possui seus pacotes devidamente organizados, inclui também o tratamento de possíveis erros que um determinado usuário possa eventualmente cometer através de estruturas de comparação
